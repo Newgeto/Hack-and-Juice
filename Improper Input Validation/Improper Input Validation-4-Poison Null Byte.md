@@ -1,0 +1,5 @@
+# Broken Access Control - 3 - Poison Null Byte
+
+## Méthodologie
+
+J'ai commencé par modifier l'URL pour accéder au FTP (https://ctf.juice.cyber.epitest.eu/ftp). Dans le FTP, il y avait un fichier "eastere.gg", après des recherche, j'ai essayer d'ajouter %2500.md à la fin de l'URL, celà m'a télécharger un Notepad (voir image dans le fichier Broken Acces Control), j'ai remarqué que c'était clairement une message coder, je suis allé sur le site CyberChef et j'ai essayer différentes combinaison pour déchiffrer. parmis celles que j'ai tester 1 combinaison a attiré mon attention, La "From Base 64" combiner à la  "Rot 13". celà m'a donner le message suivant : /the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg. Je l'ai combier à l'url de base ce qui m'a donner "https://ctf.juice.cyber.epitest.eu/the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg", ce qui m'a emmener vers une page avec une planète  dans l'espace qu'on pouvait bouger (voir screen), modifier la rotation et la couleur. En plus de du Flag Easter Egg, cette manipulation m'a valider "Easter Egg" et "Nested Easter Egg"
