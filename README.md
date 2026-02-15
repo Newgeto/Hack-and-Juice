@@ -10,7 +10,7 @@ L’objectif est de regrouper des notes, exemples et supports de cours autour de
 
 ## Collaboration
 
-Travail réalisé sur Google Colab avec `Gogo7895`.
+Travail réalisé avec `Gogo7895`.
 
 ## Structure
 
